@@ -40,6 +40,20 @@
 		E98E55411D43524E00E15C4C /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98E55401D43524E00E15C4C /* UIImageView+Extensions.swift */; };
 		E98E55431D43525B00E15C4C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98E55421D43525B00E15C4C /* User.swift */; };
 		E98E55451D43549600E15C4C /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98E55441D43549600E15C4C /* Example.swift */; };
+		E9CC1AB61D485A7400FEF509 /* WikipediaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC1AB51D485A7400FEF509 /* WikipediaPage.swift */; };
+		E9CC1AB81D48660A00FEF509 /* HtmlParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC1AB71D48660A00FEF509 /* HtmlParsing.swift */; };
+		E9CD5BB51D482DA8007CF4C1 /* WikipediaSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD5BB41D482DA8007CF4C1 /* WikipediaSearchViewController.swift */; };
+		E9CD5BB71D483591007CF4C1 /* WikipediaSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD5BB61D483591007CF4C1 /* WikipediaSearchCell.swift */; };
+		E9CD5BB91D4835A1007CF4C1 /* WikipediaSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9CD5BB81D4835A1007CF4C1 /* WikipediaSearchCell.xib */; };
+		E9CD5BBB1D483828007CF4C1 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD5BBA1D483828007CF4C1 /* Dependencies.swift */; };
+		E9CD5BBD1D4838C2007CF4C1 /* ReachabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD5BBC1D4838C2007CF4C1 /* ReachabilityService.swift */; };
+		E9CD5BBF1D483ACD007CF4C1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD5BBE1D483ACD007CF4C1 /* Reachability.swift */; };
+		E9CD5BC11D483ED8007CF4C1 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD5BC01D483ED8007CF4C1 /* ImageService.swift */; };
+		E9CD5BC31D483F3A007CF4C1 /* DownloadableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD5BC21D483F3A007CF4C1 /* DownloadableImage.swift */; };
+		E9CD5BC51D484058007CF4C1 /* WikipediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD5BC41D484058007CF4C1 /* WikipediaAPI.swift */; };
+		E9CD5BC71D4840A9007CF4C1 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD5BC61D4840A9007CF4C1 /* UIImage+Extensions.swift */; };
+		E9CD5BC91D48503C007CF4C1 /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD5BC81D48503C007CF4C1 /* SearchResultViewModel.swift */; };
+		E9CD5BCB1D485064007CF4C1 /* WikipediaSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD5BCA1D485064007CF4C1 /* WikipediaSearchResult.swift */; };
 		E9EF48721D40FE9000E51C83 /* BindingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EF48711D40FE9000E51C83 /* BindingExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +115,20 @@
 		E98E55401D43524E00E15C4C /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		E98E55421D43525B00E15C4C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E98E55441D43549600E15C4C /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		E9CC1AB51D485A7400FEF509 /* WikipediaPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaPage.swift; sourceTree = "<group>"; };
+		E9CC1AB71D48660A00FEF509 /* HtmlParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HtmlParsing.swift; sourceTree = "<group>"; };
+		E9CD5BB41D482DA8007CF4C1 /* WikipediaSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchViewController.swift; sourceTree = "<group>"; };
+		E9CD5BB61D483591007CF4C1 /* WikipediaSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchCell.swift; sourceTree = "<group>"; };
+		E9CD5BB81D4835A1007CF4C1 /* WikipediaSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaSearchCell.xib; sourceTree = "<group>"; };
+		E9CD5BBA1D483828007CF4C1 /* Dependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		E9CD5BBC1D4838C2007CF4C1 /* ReachabilityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityService.swift; sourceTree = "<group>"; };
+		E9CD5BBE1D483ACD007CF4C1 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		E9CD5BC01D483ED8007CF4C1 /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		E9CD5BC21D483F3A007CF4C1 /* DownloadableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadableImage.swift; sourceTree = "<group>"; };
+		E9CD5BC41D484058007CF4C1 /* WikipediaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaAPI.swift; sourceTree = "<group>"; };
+		E9CD5BC61D4840A9007CF4C1 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		E9CD5BC81D48503C007CF4C1 /* SearchResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
+		E9CD5BCA1D485064007CF4C1 /* WikipediaSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchResult.swift; sourceTree = "<group>"; };
 		E9EF48711D40FE9000E51C83 /* BindingExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingExtensions.swift; sourceTree = "<group>"; };
 		ED8C91799860011780AF45EC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FB7D459CBCF51C5652822E1E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +206,7 @@
 				E93D84171D3FD78D00C15C15 /* Examples */,
 				E93D84161D3FD78400C15C15 /* Services */,
 				E93D83D51D3FB86400C15C15 /* AppDelegate.swift */,
+				E9CD5BBA1D483828007CF4C1 /* Dependencies.swift */,
 				E98E55441D43549600E15C4C /* Example.swift */,
 				E93D84081D3FBFF400C15C15 /* ViewController.swift */,
 				E93D84031D3FB8FC00C15C15 /* RootViewController.swift */,
@@ -257,7 +286,13 @@
 			isa = PBXGroup;
 			children = (
 				E93D84181D3FD7A900C15C15 /* Wireframe.swift */,
+				E9CC1AB71D48660A00FEF509 /* HtmlParsing.swift */,
+				E9CD5BC01D483ED8007CF4C1 /* ImageService.swift */,
+				E9CD5BBE1D483ACD007CF4C1 /* Reachability.swift */,
+				E9CD5BBC1D4838C2007CF4C1 /* ReachabilityService.swift */,
 				E93D841A1D3FDDEB00C15C15 /* ActivityIndicator.swift */,
+				E9CD5BC21D483F3A007CF4C1 /* DownloadableImage.swift */,
+				E9CD5BC61D4840A9007CF4C1 /* UIImage+Extensions.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -272,6 +307,7 @@
 				E98E55331D42788400E15C4C /* SimpleTableViewExample */,
 				E98E55361D427DB300E15C4C /* SimpleTableViewExampleSectioned */,
 				E98E55391D434F6D00E15C4C /* TableViewWithEditingCommands */,
+				E9CD5BB01D482CB8007CF4C1 /* WikipediaImageSearch */,
 				E98E55231D41343500E15C4C /* Calculator */,
 			);
 			name = Examples;
@@ -323,6 +359,44 @@
 				E98E55421D43525B00E15C4C /* User.swift */,
 			);
 			name = TableViewWithEditingCommands;
+			sourceTree = "<group>";
+		};
+		E9CD5BB01D482CB8007CF4C1 /* WikipediaImageSearch */ = {
+			isa = PBXGroup;
+			children = (
+				E9CD5BB11D482D4B007CF4C1 /* ViewModels */,
+				E9CD5BB21D482D5E007CF4C1 /* Views */,
+				E9CD5BB31D482D66007CF4C1 /* WikipediaAPI */,
+			);
+			name = WikipediaImageSearch;
+			sourceTree = "<group>";
+		};
+		E9CD5BB11D482D4B007CF4C1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E9CD5BC81D48503C007CF4C1 /* SearchResultViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		E9CD5BB21D482D5E007CF4C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9CD5BB61D483591007CF4C1 /* WikipediaSearchCell.swift */,
+				E9CD5BB81D4835A1007CF4C1 /* WikipediaSearchCell.xib */,
+				E9CD5BB41D482DA8007CF4C1 /* WikipediaSearchViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E9CD5BB31D482D66007CF4C1 /* WikipediaAPI */ = {
+			isa = PBXGroup;
+			children = (
+				E9CD5BC41D484058007CF4C1 /* WikipediaAPI.swift */,
+				E9CC1AB51D485A7400FEF509 /* WikipediaPage.swift */,
+				E9CD5BCA1D485064007CF4C1 /* WikipediaSearchResult.swift */,
+			);
+			name = WikipediaAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,6 +507,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E93D83E01D3FB86400C15C15 /* LaunchScreen.storyboard in Resources */,
+				E9CD5BB91D4835A1007CF4C1 /* WikipediaSearchCell.xib in Resources */,
 				E93D83DD1D3FB86400C15C15 /* Assets.xcassets in Resources */,
 				E93D83DB1D3FB86400C15C15 /* Main.storyboard in Resources */,
 			);
@@ -507,6 +582,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9CD5BC71D4840A9007CF4C1 /* UIImage+Extensions.swift in Sources */,
+				E9CD5BCB1D485064007CF4C1 /* WikipediaSearchResult.swift in Sources */,
 				E98E55411D43524E00E15C4C /* UIImageView+Extensions.swift in Sources */,
 				E98E55221D41303D00E15C4C /* GithubSignupViewModel2.swift in Sources */,
 				E93D84131D3FD33D00C15C15 /* GithubSignupViewModel1.swift in Sources */,
@@ -515,26 +592,37 @@
 				E98E55431D43525B00E15C4C /* User.swift in Sources */,
 				E98E55381D427DC600E15C4C /* SimpleTableViewExampleSectionedViewController.swift in Sources */,
 				E93D84101D3FCFB600C15C15 /* GitHubSignupViewController1.swift in Sources */,
+				E9CC1AB61D485A7400FEF509 /* WikipediaPage.swift in Sources */,
 				E98E55451D43549600E15C4C /* Example.swift in Sources */,
 				E93D83D61D3FB86400C15C15 /* AppDelegate.swift in Sources */,
+				E9CD5BC51D484058007CF4C1 /* WikipediaAPI.swift in Sources */,
+				E9CC1AB81D48660A00FEF509 /* HtmlParsing.swift in Sources */,
 				E98E553F1D43523200E15C4C /* RandomUserAPI.swift in Sources */,
 				E95414561D40F20F0023DB8B /* DefaultImplementations.swift in Sources */,
 				E98E55321D426C4000E15C4C /* ImagePickerController.swift in Sources */,
+				E9CD5BC11D483ED8007CF4C1 /* ImageService.swift in Sources */,
+				E9CD5BC31D483F3A007CF4C1 /* DownloadableImage.swift in Sources */,
 				E98E553B1D4351BB00E15C4C /* TableViewWithEditingCommandsViewController.swift in Sources */,
 				E98E55351D42789D00E15C4C /* SimpleTableViewExampleViewController.swift in Sources */,
+				E9CD5BB71D483591007CF4C1 /* WikipediaSearchCell.swift in Sources */,
 				E93D84091D3FBFF400C15C15 /* ViewController.swift in Sources */,
+				E9CD5BC91D48503C007CF4C1 /* SearchResultViewModel.swift in Sources */,
 				E93D84191D3FD7A900C15C15 /* Wireframe.swift in Sources */,
 				E93D841B1D3FDDEB00C15C15 /* ActivityIndicator.swift in Sources */,
 				E98E55291D4253B800E15C4C /* CalculatorAction.swift in Sources */,
 				E98E553D1D4351CE00E15C4C /* DetailViewController.swift in Sources */,
+				E9CD5BB51D482DA8007CF4C1 /* WikipediaSearchViewController.swift in Sources */,
+				E9CD5BBD1D4838C2007CF4C1 /* ReachabilityService.swift in Sources */,
 				E98E552B1D42540D00E15C4C /* CalculatorState.swift in Sources */,
 				E98E55251D424C9700E15C4C /* CalculatorViewController.swift in Sources */,
 				E98E55271D42539B00E15C4C /* Operation.swift in Sources */,
 				E95414581D40F3520023DB8B /* String+URL.swift in Sources */,
 				E93D84041D3FB8FC00C15C15 /* RootViewController.swift in Sources */,
 				E98E55301D42698000E15C4C /* UIImagePickerController+RxCreate.swift in Sources */,
+				E9CD5BBF1D483ACD007CF4C1 /* Reachability.swift in Sources */,
 				E93D840C1D3FC2D900C15C15 /* SimpleValidationViewController.swift in Sources */,
 				E93D84151D3FD3BF00C15C15 /* Protocols.swift in Sources */,
+				E9CD5BBB1D483828007CF4C1 /* Dependencies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

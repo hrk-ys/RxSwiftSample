@@ -93,9 +93,33 @@ class TableViewWithEditingCommandsViewController: ViewController, UITableViewDel
             }
             .addDisposableTo(disposeBag)
         
+        tableView.rx_setDelegate(self)
+            .addDisposableTo(disposeBag)
+    }
+    
+    override func setEditing(editing: Bool, animated: Bool) {
+        super.setEditing(editing, animated: animated)
+        tableView.editing = editing
+    }
+    
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let title = dataSource.sectionAtIndex(section)
+        
+        let label = UILabel(frame: CGRect.zero)
+        label.text = " \(title)"
+        label.textColor = UIColor.whiteColor()
+        label.backgroundColor = UIColor.darkGrayColor()
+        label.alpha = 0.9
+        
+        return label
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 40
     }
     
     private func showDetailsForUser(user: User) {
+        print(user)
     }
     
     static func configureDataSource() -> RxTableViewSectionedReloadDataSource<SectionModel<String, User>> {

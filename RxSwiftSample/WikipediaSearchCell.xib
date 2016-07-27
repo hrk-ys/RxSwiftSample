@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="TdL-mt-FGt" customClass="WikipediaSearchCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="194"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TdL-mt-FGt" id="U9k-mU-8uG">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="194"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYO-gM-tLZ">
+                        <rect key="frame" x="8" y="13" width="304" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MsS-Ot-faN">
+                        <rect key="frame" x="8" y="37" width="304" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="2SL-LI-vsM">
+                        <rect key="frame" x="8" y="69" width="304" height="112"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Zhc-4b-bv3">
+                            <size key="itemSize" width="112" height="112"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells/>
+                    </collectionView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2SL-LI-vsM" firstAttribute="top" secondItem="MsS-Ot-faN" secondAttribute="bottom" constant="15" id="3nj-t2-J7w"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="MsS-Ot-faN" secondAttribute="trailing" id="NZL-1r-Cyv"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="2SL-LI-vsM" secondAttribute="bottom" constant="5" id="Vge-gr-Ajh"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="2SL-LI-vsM" secondAttribute="trailing" id="Yhd-hk-Bqr"/>
+                    <constraint firstItem="KYO-gM-tLZ" firstAttribute="top" secondItem="U9k-mU-8uG" secondAttribute="topMargin" constant="5" id="dEQ-3H-cE7"/>
+                    <constraint firstItem="2SL-LI-vsM" firstAttribute="leading" secondItem="U9k-mU-8uG" secondAttribute="leadingMargin" id="eEg-ZB-E9Y"/>
+                    <constraint firstItem="MsS-Ot-faN" firstAttribute="leading" secondItem="U9k-mU-8uG" secondAttribute="leadingMargin" id="ePL-Qm-ADo"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="KYO-gM-tLZ" secondAttribute="trailing" id="eu2-U0-Obb"/>
+                    <constraint firstItem="MsS-Ot-faN" firstAttribute="top" secondItem="KYO-gM-tLZ" secondAttribute="bottom" constant="3" id="nY3-8k-mVX"/>
+                    <constraint firstItem="KYO-gM-tLZ" firstAttribute="leading" secondItem="U9k-mU-8uG" secondAttribute="leadingMargin" id="rR4-dN-lKF"/>
+                    <constraint firstItem="MsS-Ot-faN" firstAttribute="top" secondItem="KYO-gM-tLZ" secondAttribute="bottom" constant="3" id="yx9-3w-oDJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="URLOutlet" destination="MsS-Ot-faN" id="vCx-Sl-f9g"/>
+                <outlet property="imagesOutlet" destination="2SL-LI-vsM" id="ztS-zD-T04"/>
+                <outlet property="titleOutlet" destination="KYO-gM-tLZ" id="pwY-Xc-OdH"/>
+            </connections>
+            <point key="canvasLocation" x="301" y="571"/>
+        </tableViewCell>
+    </objects>
+</document>

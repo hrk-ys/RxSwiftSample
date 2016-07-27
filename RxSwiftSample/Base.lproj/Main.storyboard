@@ -40,7 +40,7 @@
                             <tableViewSection headerTitle="iPhone Examples" id="nSL-0p-vzX">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="21k-3Y-h4p" detailTextLabel="44J-3i-ho2" style="IBUITableViewCellStyleSubtitle" id="tRt-rn-fyA">
-                                        <rect key="frame" x="0.0" y="197.5" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="198" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tRt-rn-fyA" id="3we-sl-Ox2">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -67,7 +67,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="vUW-E6-pyH" detailTextLabel="RUn-yb-DtW" style="IBUITableViewCellStyleSubtitle" id="Jys-1w-obO">
-                                        <rect key="frame" x="0.0" y="241.5" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="242" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jys-1w-obO" id="655-BT-e6y">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -94,7 +94,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Uub-i6-aXR" detailTextLabel="aBa-IO-4Zk" style="IBUITableViewCellStyleSubtitle" id="wrk-WO-4aX">
-                                        <rect key="frame" x="0.0" y="285.5" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="286" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wrk-WO-4aX" id="75x-Jf-GPC">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -121,7 +121,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="WZ8-xR-gqA" detailTextLabel="Cjr-2j-O7v" style="IBUITableViewCellStyleSubtitle" id="406-1T-HZD">
-                                        <rect key="frame" x="0.0" y="329.5" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="330" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="406-1T-HZD" id="evs-n1-aKb">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -148,7 +148,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="jnT-Ol-3zA" detailTextLabel="ezm-wu-y7a" style="IBUITableViewCellStyleSubtitle" id="Z9u-rG-c6b">
-                                        <rect key="frame" x="0.0" y="373.5" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="374" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Z9u-rG-c6b" id="Vvr-NH-wVG">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -179,7 +179,7 @@
                             <tableViewSection headerTitle="TableView" id="e4v-7D-Gf0">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="dhd-D8-8c3" detailTextLabel="icI-Nm-CZP" style="IBUITableViewCellStyleSubtitle" id="g0p-9E-Z1h">
-                                        <rect key="frame" x="0.0" y="459.5" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="460" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="g0p-9E-Z1h" id="tTX-VE-Dkr">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -206,7 +206,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="ICq-2w-xv7" detailTextLabel="huF-SN-vpq" style="IBUITableViewCellStyleSubtitle" id="lLu-9d-m0X">
-                                        <rect key="frame" x="0.0" y="503.5" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="504" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lLu-9d-m0X" id="r4a-9A-XDl">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -233,7 +233,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="bbC-oE-HpS" detailTextLabel="gdf-3L-kHx" style="IBUITableViewCellStyleSubtitle" id="YaA-yf-5La">
-                                        <rect key="frame" x="0.0" y="547.5" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="548" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YaA-yf-5La" id="UZV-oG-TkO">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -257,6 +257,37 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="uEx-G3-PHg" kind="show" id="raV-Wz-LB4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="TableView" id="2yU-Af-zHX">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="ArU-Ob-7CE" detailTextLabel="yZP-dx-HXI" style="IBUITableViewCellStyleSubtitle" id="BkO-u2-z9A">
+                                        <rect key="frame" x="0.0" y="634" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BkO-u2-z9A" id="hSX-xN-iwU">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Search Wikipedia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ArU-Ob-7CE">
+                                                    <rect key="frame" x="15" y="6" width="126" height="19.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Complex async, activity indicator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yZP-dx-HXI">
+                                                    <rect key="frame" x="15" y="25.5" width="173.5" height="13.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="mmz-pj-apR" kind="show" id="mnk-Yw-BkY"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -520,7 +551,7 @@
                                 <rect key="frame" x="28" y="322" width="20" height="20"/>
                             </activityIndicatorView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Esy-OI-Frh">
-                                <rect key="frame" x="16" y="372" width="288" height="161.5"/>
+                                <rect key="frame" x="16" y="372" width="288" height="162"/>
                                 <string key="text">Proving that observable sequences have wanted properties (UIThread, errors handled, sharing of side effects) is done manually. (but has some performance gain that shouldn't be noticable in practice)
 
 To do this automatically, check out the corresponding `Driver` example.</string>
@@ -590,7 +621,7 @@ To do this automatically, check out the corresponding `Driver` example.</string>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZnO-IE-2mI">
-                                <rect key="frame" x="240.5" y="488.5" width="79.5" height="79.5"/>
+                                <rect key="frame" x="241" y="489" width="79" height="79"/>
                                 <color key="backgroundColor" red="0.52156862749999999" green="0.74901960779999999" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ZnO-IE-2mI" secondAttribute="height" multiplier="1:1" id="GE4-vK-fOI"/>
@@ -626,7 +657,7 @@ To do this automatically, check out the corresponding `Driver` example.</string>
                                 </state>
                             </button>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xry-ar-O30">
-                                <rect key="frame" x="160" y="408.5" width="80" height="80"/>
+                                <rect key="frame" x="160" y="409" width="80" height="80"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Xry-ar-O30" secondAttribute="height" multiplier="1:1" id="Mnd-Rs-hT9"/>
@@ -638,7 +669,7 @@ To do this automatically, check out the corresponding `Driver` example.</string>
                                 </state>
                             </button>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1E2-lj-GYq">
-                                <rect key="frame" x="160" y="488.5" width="80" height="79.5"/>
+                                <rect key="frame" x="160" y="489" width="80" height="79"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1E2-lj-GYq" secondAttribute="height" multiplier="1:1" id="hez-rm-pbG"/>
@@ -662,7 +693,7 @@ To do this automatically, check out the corresponding `Driver` example.</string>
                                 </state>
                             </button>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQJ-eO-DH9">
-                                <rect key="frame" x="240" y="408.5" width="80" height="80"/>
+                                <rect key="frame" x="240" y="409" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.52156862749999999" green="0.74901960779999999" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="IQJ-eO-DH9" secondAttribute="height" multiplier="1:1" id="vzg-LT-s2m"/>
@@ -698,7 +729,7 @@ To do this automatically, check out the corresponding `Driver` example.</string>
                                 </state>
                             </button>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cee-Q3-qmQ">
-                                <rect key="frame" x="240" y="328.5" width="80" height="80"/>
+                                <rect key="frame" x="240" y="329" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.52156862749999999" green="0.74901960779999999" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cee-Q3-qmQ" secondAttribute="height" multiplier="1:1" id="3pm-k2-aWf"/>
@@ -734,7 +765,7 @@ To do this automatically, check out the corresponding `Driver` example.</string>
                                 </state>
                             </button>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cME-hu-boS">
-                                <rect key="frame" x="160" y="248.5" width="80" height="80"/>
+                                <rect key="frame" x="160" y="249" width="80" height="80"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cME-hu-boS" secondAttribute="height" multiplier="1:1" id="FEi-Ew-MRd"/>
@@ -746,7 +777,7 @@ To do this automatically, check out the corresponding `Driver` example.</string>
                                 </state>
                             </button>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aw8-P0-sVF">
-                                <rect key="frame" x="240" y="248.5" width="80" height="80"/>
+                                <rect key="frame" x="240" y="249" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.52156862749999999" green="0.74901960779999999" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="aw8-P0-sVF" secondAttribute="height" multiplier="1:1" id="h7q-Od-UGU"/>
@@ -770,7 +801,7 @@ To do this automatically, check out the corresponding `Driver` example.</string>
                                 </state>
                             </button>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kM-Qn-eGm">
-                                <rect key="frame" x="160" y="168.5" width="80" height="80"/>
+                                <rect key="frame" x="160" y="169" width="80" height="80"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="6kM-Qn-eGm" secondAttribute="height" multiplier="1:1" id="lJg-NI-Jct"/>
@@ -782,7 +813,7 @@ To do this automatically, check out the corresponding `Driver` example.</string>
                                 </state>
                             </button>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RmP-xe-gb5">
-                                <rect key="frame" x="240" y="168.5" width="80" height="80"/>
+                                <rect key="frame" x="240" y="169" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.52156862749999999" green="0.74901960779999999" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="RmP-xe-gb5" secondAttribute="height" multiplier="1:1" id="7ST-w7-77m"/>
@@ -794,7 +825,7 @@ To do this automatically, check out the corresponding `Driver` example.</string>
                                 </state>
                             </button>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38t-c8-RcQ">
-                                <rect key="frame" x="160" y="328.5" width="80" height="80"/>
+                                <rect key="frame" x="160" y="329" width="80" height="80"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="38t-c8-RcQ" secondAttribute="height" multiplier="1:1" id="Ke7-eE-TIY"/>
@@ -1127,7 +1158,7 @@ To do this automatically, check out the corresponding `Driver` example.</string>
                                         <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yp7-q6-zAk" id="eij-Ig-oum">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <accessibility key="accessibilityConfiguration">
@@ -1207,6 +1238,55 @@ To do this automatically, check out the corresponding `Driver` example.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U5a-Bn-2pS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="9" y="2053"/>
+        </scene>
+        <!--Search Wikipedia-->
+        <scene sceneID="Sok-IE-LE5">
+            <objects>
+                <viewController id="mmz-pj-apR" customClass="WikipediaSearchViewController" customModule="RxSwiftSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kUm-2P-KXh"/>
+                        <viewControllerLayoutGuide type="bottom" id="toQ-0P-icQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n8V-Fu-8gt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cca-3T-hLF" userLabel="Search Bar Container">
+                                <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                <color key="backgroundColor" red="0.76862745099999996" green="0.76862745099999996" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Eqb-5j-Mw4"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9V-jS-Agl">
+                                <rect key="frame" x="29" y="174" width="263" height="126"/>
+                                <string key="text">This app transforms Wikipedia into image search engine.
+It uses Wikipedia search API to find content and scrapes the HTML of those pages for image URLs.
+This is only showcase app, not intended for production purposes.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="y9V-jS-Agl" secondAttribute="trailing" constant="12" id="5mf-eP-kdn"/>
+                            <constraint firstAttribute="trailing" secondItem="Cca-3T-hLF" secondAttribute="trailing" id="NJg-W1-fip"/>
+                            <constraint firstItem="y9V-jS-Agl" firstAttribute="leading" secondItem="n8V-Fu-8gt" secondAttribute="leadingMargin" constant="13" id="RbO-ws-As6"/>
+                            <constraint firstAttribute="centerX" secondItem="y9V-jS-Agl" secondAttribute="centerX" constant="-0.5" id="e3a-NE-MJG"/>
+                            <constraint firstItem="Cca-3T-hLF" firstAttribute="top" secondItem="kUm-2P-KXh" secondAttribute="bottom" id="gde-ft-0ng"/>
+                            <constraint firstItem="Cca-3T-hLF" firstAttribute="leading" secondItem="n8V-Fu-8gt" secondAttribute="leading" id="hmE-Es-n9o"/>
+                            <constraint firstAttribute="centerY" secondItem="y9V-jS-Agl" secondAttribute="centerY" multiplier="1.2" id="i0Z-T0-Ldt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Search Wikipedia" id="QlM-AM-dZa"/>
+                    <connections>
+                        <outlet property="searchBarContainer" destination="n8V-Fu-8gt" id="4ky-UT-Uiv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YEJ-jg-k4t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="723" y="1741"/>
         </scene>
     </scenes>
 </document>
