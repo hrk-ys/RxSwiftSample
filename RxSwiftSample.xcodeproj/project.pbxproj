@@ -25,6 +25,9 @@
 		E93D841B1D3FDDEB00C15C15 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93D841A1D3FDDEB00C15C15 /* ActivityIndicator.swift */; };
 		E95414561D40F20F0023DB8B /* DefaultImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95414551D40F20F0023DB8B /* DefaultImplementations.swift */; };
 		E95414581D40F3520023DB8B /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95414571D40F3520023DB8B /* String+URL.swift */; };
+		E98B932F1D49AEA5002795B1 /* WikipediaImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98B932E1D49AEA5002795B1 /* WikipediaImageCell.xib */; };
+		E98B93311D49AEBC002795B1 /* CollectionViewImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B93301D49AEBC002795B1 /* CollectionViewImageCell.swift */; };
+		E98B93331D49AFA5002795B1 /* UIImageView+DownloadableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B93321D49AFA5002795B1 /* UIImageView+DownloadableImage.swift */; };
 		E98E55221D41303D00E15C4C /* GithubSignupViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98E55211D41303D00E15C4C /* GithubSignupViewModel2.swift */; };
 		E98E55251D424C9700E15C4C /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98E55241D424C9700E15C4C /* CalculatorViewController.swift */; };
 		E98E55271D42539B00E15C4C /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98E55261D42539B00E15C4C /* Operation.swift */; };
@@ -100,6 +103,9 @@
 		E95414541D40EF870023DB8B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		E95414551D40F20F0023DB8B /* DefaultImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultImplementations.swift; sourceTree = "<group>"; };
 		E95414571D40F3520023DB8B /* String+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URL.swift"; sourceTree = "<group>"; };
+		E98B932E1D49AEA5002795B1 /* WikipediaImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaImageCell.xib; sourceTree = "<group>"; };
+		E98B93301D49AEBC002795B1 /* CollectionViewImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewImageCell.swift; sourceTree = "<group>"; };
+		E98B93321D49AFA5002795B1 /* UIImageView+DownloadableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadableImage.swift"; sourceTree = "<group>"; };
 		E98E55211D41303D00E15C4C /* GithubSignupViewModel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSignupViewModel2.swift; sourceTree = "<group>"; };
 		E98E55241D424C9700E15C4C /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		E98E55261D42539B00E15C4C /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
@@ -292,6 +298,7 @@
 				E9CD5BBC1D4838C2007CF4C1 /* ReachabilityService.swift */,
 				E93D841A1D3FDDEB00C15C15 /* ActivityIndicator.swift */,
 				E9CD5BC21D483F3A007CF4C1 /* DownloadableImage.swift */,
+				E98B93321D49AFA5002795B1 /* UIImageView+DownloadableImage.swift */,
 				E9CD5BC61D4840A9007CF4C1 /* UIImage+Extensions.swift */,
 			);
 			name = Services;
@@ -382,6 +389,8 @@
 		E9CD5BB21D482D5E007CF4C1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E98B93301D49AEBC002795B1 /* CollectionViewImageCell.swift */,
+				E98B932E1D49AEA5002795B1 /* WikipediaImageCell.xib */,
 				E9CD5BB61D483591007CF4C1 /* WikipediaSearchCell.swift */,
 				E9CD5BB81D4835A1007CF4C1 /* WikipediaSearchCell.xib */,
 				E9CD5BB41D482DA8007CF4C1 /* WikipediaSearchViewController.swift */,
@@ -506,6 +515,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98B932F1D49AEA5002795B1 /* WikipediaImageCell.xib in Resources */,
 				E93D83E01D3FB86400C15C15 /* LaunchScreen.storyboard in Resources */,
 				E9CD5BB91D4835A1007CF4C1 /* WikipediaSearchCell.xib in Resources */,
 				E93D83DD1D3FB86400C15C15 /* Assets.xcassets in Resources */,
@@ -598,7 +608,9 @@
 				E9CD5BC51D484058007CF4C1 /* WikipediaAPI.swift in Sources */,
 				E9CC1AB81D48660A00FEF509 /* HtmlParsing.swift in Sources */,
 				E98E553F1D43523200E15C4C /* RandomUserAPI.swift in Sources */,
+				E98B93311D49AEBC002795B1 /* CollectionViewImageCell.swift in Sources */,
 				E95414561D40F20F0023DB8B /* DefaultImplementations.swift in Sources */,
+				E98B93331D49AFA5002795B1 /* UIImageView+DownloadableImage.swift in Sources */,
 				E98E55321D426C4000E15C4C /* ImagePickerController.swift in Sources */,
 				E9CD5BC11D483ED8007CF4C1 /* ImageService.swift in Sources */,
 				E9CD5BC31D483F3A007CF4C1 /* DownloadableImage.swift in Sources */,
